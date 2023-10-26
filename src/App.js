@@ -12,15 +12,13 @@
 **/
 
 import { Routes, Route } from 'react-router-dom';
-import LandingPage from './Views/LandingPage'
-
-
+import LoginPage from './Views/LandingPages/Login'
 
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<LandingPage />} />
+      <Route path="/" element={<LoginPage />} />
     </Routes>
   );
 }
